@@ -1,0 +1,18 @@
+compoents :
+card- to show poke image and name
+
+adding style with styled components {
+    const wrapper = stlyed.div`display:flex;`
+}
+
+props can be a function and you call it in another 
+compoents and you just provide the parametre
+like on cardClick
+
+
+
+functions :
+(fetchRandomPokemon)a function to get random pokemon data{
+    response = axios.get(url)
+    return response.data;
+}

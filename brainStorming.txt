@@ -16,3 +16,7 @@ functions :
     response = axios.get(url)
     return response.data;
 }
+
+
+rerendering :
+when an elemnt doesn't change react doesn't re render it -> so to force rerendering I chaned the key each time score+1

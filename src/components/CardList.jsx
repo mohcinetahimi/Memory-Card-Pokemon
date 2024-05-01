@@ -92,7 +92,7 @@ function CardList() {
         <Score> Round: {round} / Total Rounds: {totalRounds} </Score>
         <CardListContainer>
         {pokemonArray.map((pokemon, index) => (
-          <Card key={pokemon.id} pokemon={pokemon} onCardClick={handleCardClick} />
+          <Card key={`${pokemon.id}-${score}`} pokemon={pokemon} onCardClick={handleCardClick} />
         ))}
         </CardListContainer> 
         </>) : ( <>
